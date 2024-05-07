@@ -6,7 +6,8 @@ RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/caddy-dns/hetzner \
     --with github.com/caddy-dns/azure \
-    --with github.com/WeidiDeng/caddy-cloudflare-ip
+    --with github.com/WeidiDeng/caddy-cloudflare-ip \
+    --with github.com/mholt/caddy-l4
 
 FROM caddy:${VERSION}
 
